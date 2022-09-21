@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.galeria {
+    display: flex;
+}
+
+.imagen-galeria {
+    width: 100px;
+}
