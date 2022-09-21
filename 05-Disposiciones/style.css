@@ -5,6 +5,7 @@
 
 .galeria {
     display: flex;
+    flew-wrap: wrap;
 }
 
 .imagen-galeria {
