@@ -5,9 +5,21 @@
 
 .galeria {
     display: flex;
-    flew-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 10px;
+    cursor: pointer;
 }
 
-.imagen-galeria {
-    width: 100px;
+.galeria img {
+    width: 300px;
 }
+
+.img-galeria {
+    opacity: 0;
+}
+
+.img-galeria:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
