@@ -11,6 +11,27 @@
 <body>
     <div class="container pt-4">
         <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Introduce tu nombre</label>
+            <input id="nombre" class="form-control" type="text">
+            <div class="form-text">Introduce tu nombre de pila</div>
+          </div>
+          <div class="mb-3">
+            <input type="checkbox">
+            <input type="checkbox" id="check-mayor-edad" class="form-check-input">
+            <label for="check-mayor-edad" class="form-check-label">¿Eres mayor de edad?</label>
+          </div>
+          <div class="mb-3">
+            <label for="apellido" class="form-label">Introduce tu apellido</label>
+            <input id="apellido" class="form-control-plaintext" type="text" placeholder="Tu apellido" value="Quilis">
+            <div class="form-text">Introduce tu apellido</div>
+          </div>
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Por defecto</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+
+
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -24,6 +45,22 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
+
+            <div class="mb-3">
+              <input type="color" class="form-control form-control-color">
+            </div>
+            <div class="mb-3">
+              <label for="exampleDataList" class="form-label">Selecciona tu ciudad</label>
+              <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search..."/>
+              <datalist id="datalistOptions">
+                <option value="San Sebastián" />
+                <option value="Madrid" />
+                <option value="Bilbao" />
+                <option value="Barcelona" />
+                <option value="Valencia" />
+              </datalist>
+            </div>
+
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
     </div>
